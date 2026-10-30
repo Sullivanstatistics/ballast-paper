@@ -1,0 +1,22 @@
+[2026-10-28 10:51:38] run_all on <laptop>: ballast 0.7.3 commit 28be8fb10383, R version 4.5.3 (2026-03-11 ucrt), 8 workers; previous run <redacted>/2026-10-29-methods-sims-070
+[2026-10-28 10:51:39] job3_public_trials starting
+[2026-10-28 10:53:58] job3_public_trials finished with status 0 (elapsed 2.3 min)
+[2026-10-28 10:53:58] job4_trials starting
+[2026-10-28 10:56:29] job4_trials finished with status 0 (elapsed 2.5 min)
+[2026-10-28 10:56:29] job6_spec_grid starting
+[2026-10-28 10:56:34] job6_spec_grid finished with status 0 (elapsed 0.0 min)
+[2026-10-28 10:56:34] fig02_three_swarms starting
+[2026-10-28 10:56:37] fig02_three_swarms finished with status 0 (elapsed 0.0 min)
+[2026-10-28 10:56:37] fig04_duloxetine starting
+[2026-10-28 10:56:40] fig04_duloxetine finished with status 0 (elapsed 0.0 min)
+[2026-10-28 10:56:41] figS1_broken_trials starting
+[2026-10-28 10:56:43] figS1_broken_trials finished with status 0 (elapsed 0.0 min)
+[2026-10-28 10:56:43] figS2_spec_curve starting
+[2026-10-28 10:56:47] figS2_spec_curve finished with status 0 (elapsed 0.0 min)
+[2026-10-28 10:56:47] figS3_spec_swarm starting
+[2026-10-28 10:56:49] figS3_spec_swarm finished with status 0 (elapsed 0.0 min)
+[2026-10-28 10:56:50] fig05_design copied unchanged from the 0.7.2 run (does not depend on the 0.7.3 change)
+[2026-10-28 10:56:50] job5_study2 starting
+[2026-10-28 10:57:43] job5_study2 finished with status 127 ()
+[2026-10-28 10:57:44] job5_study2 FAILED; stopping; see logs/job5_study2.log
+[2026-10-28 10:58:07] job5_study2 was stopped on purpose after the server (<server>, 30 workers) took it over at 17:56 UTC; its log is logs/job5_study2_laptop_stopped.log; Job 5 and Figure 3 come from the server run (logs/run_server.log)

@@ -1,0 +1,3 @@
+"trial","family","label","kind","counted","converged","estimate","stderr","p","lcl","ucl","inside_ci","same_direction","shift_se"
+"duloxetine","estimator class","MMRM on complete cases","diagnostic",FALSE,TRUE,-2.82929418369738,1.16993858598528,0.0170041061265046,-5.14428877546882,-0.514299591925935,TRUE,TRUE,0.0387670048998145
+"aids","estimator class","MMRM on complete cases","diagnostic",FALSE,TRUE,-0.698985087139042,1.45035412567848,0.636544470091833,-3.78021017708741,2.38224000280933,FALSE,FALSE,-2.50434830600751

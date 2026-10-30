@@ -1,0 +1,3 @@
+No effect (planned power 0): 23 alternative analyses drawn, 100 deletions drawn, 0 counted rows without an estimate
+Mild effect (planned power 0.5): 23 alternative analyses drawn, 100 deletions drawn, 0 counted rows without an estimate
+Strong effect (planned power 0.95): 23 alternative analyses drawn, 100 deletions drawn, 0 counted rows without an estimate

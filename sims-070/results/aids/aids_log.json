@@ -1,0 +1,29 @@
+{
+  "title": "Standard stress test (ballast 0.7.2)",
+  "plan_md5": "74e033a431467685e492c366f964a3a5",
+  "plan": ["Standard stress test (ballast 0.7.2)", "", "Pre-specified analysis: change ~ cd4_base + prevOI + AZT + drug + visit + drug:visit + us(visit | patient); contrast ddI minus ddC at 12; Satterthwaite df, Asymptotic variance; alpha 0.05; equal LS-mean weights.", "", "Perturbation families, run after unblinding exactly as listed; every refit is judged against the pre-specified estimate,", "its 95% confidence interval and alpha.", "Classification: fragile if any counted alternative lands outside the pre-specified 95% confidence interval; otherwise sensitive if any crosses alpha; otherwise robust.", "Specifications reached by two families are counted once; tipping-point grids are searches and are not counted; deletions are", "counted separately.", "", "1. Within-subject covariance structure: structures = us, ar1h, ar1, cs, csh, toep, toeph", "2. Degrees-of-freedom method and variance estimator: defaults", "3. Covariate set: defaults", "4. Least-squares-mean weighting (equal versus observed margins): defaults", "5. Leave-one-out deletions: defaults", "6. Re-randomisation test: n = 2000", "7. Delta-adjusted multiple imputation (tipping point): deltas = 0, -0.5, -1, -1.5, -2; m = 25; shift_visits = 12", "8. Reference-based multiple imputation (MAR, J2R, CR, CIR): m = 25", "9. Estimator class: estimators = complete_cases, gee_independence, ancova, robust_ancova, clda; baseline = cd4_base", "10. Smallest set of subjects that changes the conclusion: target = significance; max_k = 5"],
+  "run_time": "2026-10-28 08:56:34 PDT",
+  "seed": 1,
+  "elapsed_min": 1.35,
+  "r_version": "R version 4.5.3 (2026-03-11 ucrt)",
+  "ballast": "0.7.2",
+  "mmrm": "0.3.17",
+  "platform": "x86_64-w64-mingw32",
+  "data": {
+    "subjects": 406,
+    "rows": 938,
+    "response": "change",
+    "arms": ["ddC", "ddI"]
+  },
+  "families": ["covariance", "inference", "covariates", "weights", "loo", "permute", "tipping", "reference", "estimator", "fragility"],
+  "rows": 445,
+  "counted": 432,
+  "verdict": {
+    "stability": "fragile",
+    "stability_sensitivity": "fragile",
+    "marginal": false,
+    "crossed": 0,
+    "outside_ci": 1,
+    "reversed": 1
+  }
+}

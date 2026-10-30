@@ -1,0 +1,5 @@
+==== fig02_three_swarms: ballast 0.7.2 (commit e883efff2773), R version 4.5.3 (2026-03-11 ucrt), x86_64-w64-mingw32 Windows, 8 workers, 2026-10-28 09:11:40 ====
+No effect (planned power 0): 23 alternative analyses drawn, 100 deletions drawn, 0 counted rows without an estimate
+Mild effect (planned power 0.5): 23 alternative analyses drawn, 100 deletions drawn, 0 counted rows without an estimate
+Strong effect (planned power 0.95): 23 alternative analyses drawn, 100 deletions drawn, 0 counted rows without an estimate
+==== fig02_three_swarms done: elapsed 0.0 min ====

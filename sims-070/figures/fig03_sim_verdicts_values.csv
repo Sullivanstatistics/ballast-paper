@@ -1,0 +1,56 @@
+"design","power","panel","what","value"
+"Study 1: base, 50 per arm",0,"Share of significant results","sensitive",0.5
+"Study 1: base, 50 per arm",0.5,"Share of significant results","sensitive",0.313253012048193
+"Study 1: base, 50 per arm",0.8,"Share of significant results","sensitive",0.185185185185185
+"Study 1: base, 50 per arm",0.95,"Share of significant results","sensitive",0.0989010989010989
+"Study 2: base",0,"Share of significant results","sensitive",0.5
+"Study 2: base",0.8,"Share of significant results","sensitive",0.264705882352941
+"Study 2: base",0.95,"Share of significant results","sensitive",0.153846153846154
+"Study 2: heavy tails",0,"Share of significant results","sensitive",0
+"Study 2: heavy tails",0.8,"Share of significant results","sensitive",0.27027027027027
+"Study 2: heavy tails",0.95,"Share of significant results","sensitive",0.136363636363636
+"Study 2: heteroscedastic",0,"Share of significant results","sensitive",0.333333333333333
+"Study 2: heteroscedastic",0.8,"Share of significant results","sensitive",0.2
+"Study 2: heteroscedastic",0.95,"Share of significant results","sensitive",0.0714285714285714
+"Study 2: effect modification",0.8,"Share of significant results","sensitive",0.315789473684211
+"Study 2: effect modification",0.95,"Share of significant results","sensitive",0.170212765957447
+"Study 2: MNAR dropout",0,"Share of significant results","sensitive",1
+"Study 2: MNAR dropout",0.8,"Share of significant results","sensitive",0.441176470588235
+"Study 2: MNAR dropout",0.95,"Share of significant results","sensitive",0.222222222222222
+"Study 1: base, 50 per arm",0,"Share of significant results","fragile",0
+"Study 1: base, 50 per arm",0.5,"Share of significant results","fragile",0
+"Study 1: base, 50 per arm",0.8,"Share of significant results","fragile",0
+"Study 1: base, 50 per arm",0.95,"Share of significant results","fragile",0
+"Study 2: base",0,"Share of significant results","fragile",0
+"Study 2: base",0.8,"Share of significant results","fragile",0
+"Study 2: base",0.95,"Share of significant results","fragile",0
+"Study 2: heavy tails",0,"Share of significant results","fragile",0.5
+"Study 2: heavy tails",0.8,"Share of significant results","fragile",0
+"Study 2: heavy tails",0.95,"Share of significant results","fragile",0
+"Study 2: heteroscedastic",0,"Share of significant results","fragile",0
+"Study 2: heteroscedastic",0.8,"Share of significant results","fragile",0
+"Study 2: heteroscedastic",0.95,"Share of significant results","fragile",0
+"Study 2: effect modification",0.8,"Share of significant results","fragile",0
+"Study 2: effect modification",0.95,"Share of significant results","fragile",0
+"Study 2: MNAR dropout",0,"Share of significant results","fragile",0
+"Study 2: MNAR dropout",0.8,"Share of significant results","fragile",0
+"Study 2: MNAR dropout",0.95,"Share of significant results","fragile",0
+"Study 1: base, 50 per arm",0,"Median largest shift (filed SEs)","shift",0.364216046921003
+"Study 1: base, 50 per arm",0.5,"Median largest shift (filed SEs)","shift",0.351566533314827
+"Study 1: base, 50 per arm",0.8,"Median largest shift (filed SEs)","shift",0.362063510231973
+"Study 1: base, 50 per arm",0.95,"Median largest shift (filed SEs)","shift",0.364255718718445
+"Study 2: base",0,"Median largest shift (filed SEs)","shift",0.376920517012328
+"Study 2: base",0.8,"Median largest shift (filed SEs)","shift",0.299942596817484
+"Study 2: base",0.95,"Median largest shift (filed SEs)","shift",0.323670811932995
+"Study 2: heavy tails",0,"Median largest shift (filed SEs)","shift",0.532144875346119
+"Study 2: heavy tails",0.8,"Median largest shift (filed SEs)","shift",0.475325983586411
+"Study 2: heavy tails",0.95,"Median largest shift (filed SEs)","shift",0.423583831071721
+"Study 2: heteroscedastic",0,"Median largest shift (filed SEs)","shift",0.29340580941886
+"Study 2: heteroscedastic",0.8,"Median largest shift (filed SEs)","shift",0.276262729831583
+"Study 2: heteroscedastic",0.95,"Median largest shift (filed SEs)","shift",0.276940169594644
+"Study 2: effect modification",0,"Median largest shift (filed SEs)","shift",0.341167125035857
+"Study 2: effect modification",0.8,"Median largest shift (filed SEs)","shift",0.37866668448448
+"Study 2: effect modification",0.95,"Median largest shift (filed SEs)","shift",0.401599377674724
+"Study 2: MNAR dropout",0,"Median largest shift (filed SEs)","shift",0.426141953315512
+"Study 2: MNAR dropout",0.8,"Median largest shift (filed SEs)","shift",0.43139551742062
+"Study 2: MNAR dropout",0.95,"Median largest shift (filed SEs)","shift",0.426008000855946

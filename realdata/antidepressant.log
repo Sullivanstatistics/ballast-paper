@@ -1,0 +1,57 @@
+   estimate   stderr       lcl        ucl          p n_subj n_obs
+1 -2.872048 1.102845 -5.050871 -0.6932249 0.01011878    172   608
+Base: estimate -2.87, 95% CI -5.05 to -0.693, p = 0.0101 (alpha 0.05)
+Counted: 11 alternative analyses, 188 deletions; 199 significant, 0 crossed alpha
+Outside base CI: 0; direction reversed: 0; largest shift: 0.467 base SE
+Verdict (interval rule): ROBUST over all counted rows; ROBUST over the 199 sensitivity analyses (same estimand; 0 supplementary rows)
+
+--- analytic path (all families incl. missing-data) ---
+$j
+[1] NA
+
+$reached
+[1] FALSE
+
+$direction
+[1] "toward zero"
+
+$changes
+[1] "MAR, delta 4"             "cs"                      
+[3] "observed LS-mean weights" "without BASVAL"          
+
+$assumption_dependent
+[1] FALSE
+
+
+--- analytic path (pure: no missing-data family) ---
+$j
+[1] NA
+
+$reached
+[1] FALSE
+
+$direction
+[1] "toward zero"
+
+$changes
+[1] "ar1h"                     "observed LS-mean weights"
+[3] "without BASVAL"          
+
+
+--- data axis (ranked removal) ---
+          ci significance     reversal 
+          14            4           21 
+      mutual           ci significance    direction 
+          12           14            5           18 
+removal ratio (mutual / benchmark ci): 0.8571429 
+
+--- direction stability ---
+Direction stability
+Base: estimate -2.87, 95% CI -5.05 to -0.693, p = 0.0101 (z = -2.6); significant at alpha 0.05
+Pre-specified re-analyses: 0 of 199 reverse the direction; 0 move the estimate outside its margin of error
+Participants removed to reverse the direction: 18 of 172 (10%), against 21 for a well-behaved trial of this size and z (ratio 0.86)
+Reads: the direction and size of the estimate do not depend on the analytic choices, and the result does not rest on a few participants.
+This describes the strength and stability of the evidence. At the same z a chance finding behaves the same way under every
+re-analysis that keeps the estimand, so it does not show that the effect is real; read it beside the p-value.
+
+elapsed 0.9 min

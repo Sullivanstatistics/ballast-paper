@@ -1,0 +1,4 @@
+==== figS1_broken_trials: ballast 0.7.2 (commit e883efff2773), R version 4.5.3 (2026-03-11 ucrt), x86_64-w64-mingw32 Windows, 8 workers, 2026-10-28 09:11:44 ====
+One participant at +10 residual SD: 26 alternative analyses drawn, 108 deletions drawn, 0 counted rows without an estimate
+Effect carried by one of eight sites: 26 alternative analyses drawn, 108 deletions drawn, 0 counted rows without an estimate
+==== figS1_broken_trials done: elapsed 0.0 min ====

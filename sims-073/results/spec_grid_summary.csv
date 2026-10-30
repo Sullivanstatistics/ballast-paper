@@ -1,0 +1,2 @@
+"specifications","converged","alternatives","crossed_alpha","outside_interval","reversed","significant","estimate_min","estimate_max","pct_of_base_min","pct_of_base_max","max_shift_se","p_min","p_max","base_estimate","base_se","base_lcl","base_ucl","base_p","elapsed_min","ballast","commit"
+42,42,41,0,0,0,42,-3.40362547460694,-2.72346327300343,94.8265176389061,118.508648272724,0.482005471234953,0.000712644188371487,0.0134320902165422,-2.87204817894317,1.10284494136923,-5.05087147192495,-0.693224885961403,0.0101187828487483,0.0427655498186747,"0.7.3","28be8fb10383"

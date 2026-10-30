@@ -1,0 +1,59 @@
+==== job5_study2: ballast 0.7.3 (commit 28be8fb10383), R version 4.6.1 (2026-06-24), x86_64-pc-linux-gnu Linux, 30 workers, 2026-10-28 20:11:15 ====
+cells: 10 of 15 (null cells dropped) x 400 trials = 4000 trials on 30 workers
+base2 power 0.8: 400 rows already saved, skipped
+base2 power 0.95: 400 rows already saved, skipped
+heavy power 0.8: 400 rows already saved, skipped
+heavy power 0.95: 400 rows already saved, skipped
+hetero power 0.8: 400 rows already saved, skipped
+hetero power 0.95: 400 rows already saved, skipped
+mnar power 0.8: 400 rows already saved, skipped
+mnar power 0.95: 400 rows already saved, skipped
+interact power 0.8: 400 rows already saved, skipped
+interact power 0.95: 400 rows already saved, skipped
+
+check of the first 50 trials per cell against study2_reclass.csv: 500 rows matched by seed (expected 500); estimate 500 ok, SE 500 ok, p 500 ok, label 500 ok, largest shift 500 ok
+   design power_target delta trials power_observed n_significant marginal
+    base2         0.80  3.94    400          0.655           262    0.265
+    base2         0.95  5.07    400          0.820           328    0.168
+    heavy         0.80  3.94    400          0.740           296    0.215
+    heavy         0.95  5.07    400          0.902           361    0.117
+   hetero         0.80  3.94    400          0.237            95    0.182
+   hetero         0.95  5.07    400          0.357           143    0.212
+ interact         0.80  3.94    400          0.693           277    0.215
+ interact         0.95  5.07    400          0.890           356    0.117
+     mnar         0.80  3.94    400          0.502           201    0.223
+     mnar         0.95  5.07    400          0.720           288    0.220
+ robust sensitive fragile sensitive_given_sig sensitive_given_sig_mcse
+  0.685     0.315  0.0000               0.275                   0.0276
+  0.823     0.177  0.0000               0.122                   0.0181
+  0.645     0.352  0.0025               0.274                   0.0259
+  0.802     0.198  0.0000               0.144                   0.0185
+  0.772     0.228  0.0000               0.295                   0.0468
+  0.748     0.253  0.0000               0.210                   0.0340
+  0.733     0.268  0.0000               0.242                   0.0257
+  0.835     0.165  0.0000               0.132                   0.0179
+  0.708     0.292  0.0000               0.318                   0.0329
+  0.703     0.297  0.0000               0.250                   0.0255
+ fragile_given_sig fragile_given_sig_mcse frag_k1_given_sig
+           0.00000                0.00000                 1
+           0.00000                0.00000                 1
+           0.00338                0.00337                 1
+           0.00000                0.00000                 1
+           0.00000                0.00000                 1
+           0.00000                0.00000                 1
+           0.00000                0.00000                 1
+           0.00000                0.00000                 1
+           0.00000                0.00000                 1
+           0.00000                0.00000                 1
+ frag_k1_given_sig_mcse median_max_shift_se outside_ci_any reversed_any failed
+                      0               0.384         0.0000       0.0150      0
+                      0               0.360         0.0000       0.0025      0
+                      0               0.494         0.0025       0.0125      0
+                      0               0.499         0.0000       0.0050      0
+                      0               0.284         0.0000       0.1350      0
+                      0               0.283         0.0000       0.0525      0
+                      0               0.378         0.0000       0.0100      0
+                      0               0.405         0.0000       0.0000      0
+                      0               0.420         0.0000       0.0575      0
+                      0               0.424         0.0000       0.0175      0
+==== job5_study2 done: elapsed 0.0 min ====

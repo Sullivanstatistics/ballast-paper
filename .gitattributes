@@ -1,0 +1,2 @@
+# Store every file byte for byte so that the MD5 sums in MANIFEST.csv hold in any clone.
+* -text

@@ -1,0 +1,54 @@
+==== job1_study1: ballast 0.7.2 (commit e883efff2773), R version 4.5.3 (2026-03-11 ucrt), x86_64-w64-mingw32 Windows, 8 workers, 2026-10-28 08:20:26 ====
+scenarios:
+  power    delta
+1  0.00 0.000000
+2  0.50 3.847042
+3  0.80 5.498987
+4  0.95 7.075582
+800 trials on 8 workers
+[[1]]
+NULL
+
+[[2]]
+NULL
+
+[[3]]
+NULL
+
+[[4]]
+NULL
+
+[[5]]
+NULL
+
+[[6]]
+NULL
+
+[[7]]
+NULL
+
+[[8]]
+NULL
+
+800 trials returned, 0 failed (not converged or error)
+ power_target delta trials power_observed marginal robust sensitive fragile
+         0.00  0.00    200          0.050    0.075  0.910     0.090       0
+         0.50  3.85    200          0.415    0.205  0.745     0.255       0
+         0.80  5.50    200          0.675    0.255  0.720     0.280       0
+         0.95  7.08    200          0.910    0.110  0.850     0.150       0
+ robust_given_sig sensitive_given_sig fragile_given_sig frag_k1_given_sig
+            0.500              0.5000                 0             0.714
+            0.687              0.3133                 0             0.326
+            0.815              0.1852                 0             0.381
+            0.901              0.0989                 0             0.310
+ frag_reached_given_sig median_alt_crossed median_del_crossed
+                  0.700                  0                  0
+                  0.518                  0                  0
+                  0.311                  0                  0
+                  0.159                  0                  0
+ median_max_shift_se outside_ci_any reversed_any failed
+               0.364              0        0.275      0
+               0.352              0        0.040      0
+               0.362              0        0.015      0
+               0.364              0        0.000      0
+==== job1_study1 done: elapsed 33.8 min ====

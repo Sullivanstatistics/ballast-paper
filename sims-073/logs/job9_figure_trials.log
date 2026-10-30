@@ -1,0 +1,86 @@
+==== job9_figure_trials: ballast 0.7.3 (commit 28be8fb10383), R version 4.6.1 (2026-06-24), x86_64-pc-linux-gnu Linux, 30 workers, 2026-10-29 18:49:42 ====
+A (A80): 147 significant, median filed p 0.0102; chosen seed 92166, p 0.0102, fragile
+   regenerated census matches the saved rows (119 rows) and the label: TRUE
+B (B25k8): 71 significant, median filed p 0.0171; chosen seed 99107, p 0.0171, sensitive
+   regenerated census matches the saved rows (69 rows) and the label: TRUE
+C (C45): 121 significant, median filed p 0.0061; chosen seed 95151, p 0.0061, sensitive
+   regenerated census matches the saved rows (119 rows) and the label: TRUE
+D (D09): 163 significant, median filed p 0.0017; chosen seed 97048, p 0.0017, fragile
+   regenerated census matches the saved rows (119 rows) and the label: TRUE
+                A                         
+mech            A                         
+cell            A80                       
+seed            92166                     
+cell_median_p   0.010233412               
+estimate        11.767579                 
+se              4.492107                  
+lcl             2.850749                  
+ucl             20.68441                  
+p               0.010233412               
+verdict         fragile                   
+marginal        FALSE                     
+max_shift_se    2.6661924                 
+planted         leave-one-out: site: site1
+planted_outside TRUE                      
+planted_crossed TRUE                      
+other_outside   FALSE                     
+outside_rows    leave-one-out: site: site1
+crossed_rows    leave-one-out: site: site1
+                B                                                      
+mech            B                                                      
+cell            B25k8                                                  
+seed            99107                                                  
+cell_median_p   0.017059394                                            
+estimate         8.919344                                              
+se              3.605302                                               
+lcl             1.664973                                               
+ucl             16.17371                                               
+p               0.017059394                                            
+verdict         sensitive                                              
+marginal        FALSE                                                  
+max_shift_se    0.7673107                                              
+planted         leave-one-out: subject: S0002                          
+planted_outside FALSE                                                  
+planted_crossed FALSE                                                  
+other_outside   FALSE                                                  
+outside_rows                                                           
+crossed_rows    covariate set: without base; leave-one-out: site: site8
+                C                                                                                                            
+mech            C                                                                                                            
+cell            C45                                                                                                          
+seed            95151                                                                                                        
+cell_median_p   0.006113050                                                                                                  
+estimate         6.460156                                                                                                    
+se              2.274769                                                                                                     
+lcl             1.912039                                                                                                     
+ucl             11.00827                                                                                                     
+p               0.006113050                                                                                                  
+verdict         sensitive                                                                                                    
+marginal        FALSE                                                                                                        
+max_shift_se    1.6562763                                                                                                    
+planted         reference-based multiple imputation: J2R; reference-based multiple imputation: CR                            
+planted_outside FALSE                                                                                                        
+planted_crossed TRUE                                                                                                         
+other_outside   FALSE                                                                                                        
+outside_rows                                                                                                                 
+crossed_rows    leave-one-out: site: site8; reference-based multiple imputation: J2R; reference-based multiple imputation: CR
+                D                       
+mech            D                       
+cell            D09                     
+seed            97048                   
+cell_median_p   0.001708985             
+estimate         9.020892               
+se              2.790623                
+lcl             3.477704                
+ucl             14.56408                
+p               0.001708985             
+verdict         fragile                 
+marginal        FALSE                   
+max_shift_se    3.5495090               
+planted         covariate set: with base
+planted_outside TRUE                    
+planted_crossed TRUE                    
+other_outside   FALSE                   
+outside_rows    covariate set: with base
+crossed_rows    covariate set: with base
+==== job9_figure_trials done: elapsed 0.4 min ====

@@ -1,0 +1,14 @@
+==== job9_defect_trials: ballast 0.7.3 (commit 28be8fb10383), R version 4.6.1 (2026-06-24), x86_64-pc-linux-gnu Linux, 30 workers, 2026-10-29 18:23:58 ====
+cell A40 (mechanism A, size 40, 50 per arm): 200 trials, 0 failed; 76 significant; among them fragile 49, sensitive 26, robust 1; planted row outside 49, crossed 73; other row outside 0; 2.7 min
+cell A80 (mechanism A, size 80, 50 per arm): 200 trials, 0 failed; 147 significant; among them fragile 129, sensitive 16, robust 2; planted row outside 129, crossed 141; other row outside 0; 2.7 min
+cell A200 (mechanism A, size 200, 50 per arm): 200 trials, 0 failed; 163 significant; among them fragile 152, sensitive 9, robust 2; planted row outside 152, crossed 154; other row outside 0; 5.1 min
+cell C30 (mechanism C, size 0.3, 50 per arm): 200 trials, 0 failed; 83 significant; among them fragile 0, sensitive 62, robust 21; planted row outside 0, crossed 61; other row outside 0; 2.3 min
+cell C45 (mechanism C, size 0.45, 50 per arm): 200 trials, 0 failed; 121 significant; among them fragile 26, sensitive 93, robust 2; planted row outside 26, crossed 109; other row outside 0; 2.3 min
+cell D06 (mechanism D, size 0.6, 50 per arm): 200 trials, 0 failed; 98 significant; among them fragile 72, sensitive 25, robust 1; planted row outside 72, crossed 86; other row outside 0; 2.0 min
+cell D09 (mechanism D, size 0.9, 50 per arm): 200 trials, 0 failed; 163 significant; among them fragile 159, sensitive 4, robust 0; planted row outside 159, crossed 155; other row outside 0; 2.0 min
+==== job9_defect_trials done: elapsed 19.2 min ====
+==== job9_defect_trials: ballast 0.7.3 (commit 28be8fb10383), R version 4.6.1 (2026-06-24), x86_64-pc-linux-gnu Linux, 30 workers, 2026-10-29 18:43:56 ====
+cell B25k5 (mechanism B, size 5, 25 per arm): 200 trials, 0 failed; 74 significant; among them fragile 0, sensitive 45, robust 29; planted row outside 0, crossed 21; other row outside 0; 1.1 min
+cell B25k8 (mechanism B, size 8, 25 per arm): 200 trials, 0 failed; 71 significant; among them fragile 0, sensitive 43, robust 28; planted row outside 0, crossed 10; other row outside 0; 1.1 min
+cell B50x2k8 (mechanism B, size 8, 50 per arm): 200 trials, 0 failed; 82 significant; among them fragile 0, sensitive 55, robust 27; planted row outside 0, crossed 25; other row outside 0; 2.6 min
+==== job9_defect_trials done: elapsed 4.8 min ====

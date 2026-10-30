@@ -1,0 +1,29 @@
+{
+  "title": "Standard stress test (ballast 0.7.2)",
+  "plan_md5": "62aafec448f2b6f4dcf456f00d122de0",
+  "plan": ["Standard stress test (ballast 0.7.2)", "", "Pre-specified analysis: CHANGE ~ BASVAL + THERAPY + VISIT + THERAPY:VISIT + us(VISIT | PATIENT); contrast DRUG minus PLACEBO at 7; Satterthwaite df, Asymptotic variance; alpha 0.05; equal LS-mean weights.", "", "Perturbation families, run after unblinding exactly as listed; every refit is judged against the pre-specified estimate,", "its 95% confidence interval and alpha.", "Classification: fragile if any counted alternative lands outside the pre-specified 95% confidence interval; otherwise sensitive if any crosses alpha; otherwise robust.", "Specifications reached by two families are counted once; tipping-point grids are searches and are not counted; deletions are", "counted separately.", "", "1. Within-subject covariance structure: structures = us, ar1h, ar1, cs, csh, toep, toeph", "2. Degrees-of-freedom method and variance estimator: defaults", "3. Covariate set: defaults", "4. Least-squares-mean weighting (equal versus observed margins): defaults", "5. Leave-one-out deletions: defaults", "6. Re-randomisation test: n = 2000", "7. Delta-adjusted multiple imputation (tipping point): deltas = 0, 1, 2, 3, 4, 5, 6; m = 25; shift_visits = 7", "8. Reference-based multiple imputation (MAR, J2R, CR, CIR): m = 25", "9. Estimator class: estimators = complete_cases, gee_independence, ancova, robust_ancova, clda; baseline = BASVAL", "10. Smallest set of subjects that changes the conclusion: target = significance; max_k = 5"],
+  "run_time": "2026-10-28 08:55:04 PDT",
+  "seed": 1,
+  "elapsed_min": 0.64,
+  "r_version": "R version 4.5.3 (2026-03-11 ucrt)",
+  "ballast": "0.7.2",
+  "mmrm": "0.3.17",
+  "platform": "x86_64-w64-mingw32",
+  "data": {
+    "subjects": 172,
+    "rows": 688,
+    "response": "CHANGE",
+    "arms": ["PLACEBO", "DRUG"]
+  },
+  "families": ["covariance", "inference", "covariates", "weights", "loo", "permute", "tipping", "reference", "estimator", "fragility"],
+  "rows": 210,
+  "counted": 194,
+  "verdict": {
+    "stability": "robust",
+    "stability_sensitivity": "robust",
+    "marginal": false,
+    "crossed": 0,
+    "outside_ci": 0,
+    "reversed": 0
+  }
+}

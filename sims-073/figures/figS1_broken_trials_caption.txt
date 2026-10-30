@@ -1,0 +1,2 @@
+One participant at +10 residual SD: 25 alternative analyses drawn, 108 deletions drawn, 0 counted rows without an estimate, 1 diagnostic refits drawn hollow and not counted
+Effect carried by one of eight sites: 25 alternative analyses drawn, 108 deletions drawn, 0 counted rows without an estimate, 1 diagnostic refits drawn hollow and not counted

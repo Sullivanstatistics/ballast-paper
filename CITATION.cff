@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the paper they accompany (when published) and the ballast package."
+title: "ballast-paper: scripts, seeds, per-trial results and logs for the ballast methods paper"
+type: dataset
+authors:
+  - family-names: Sullivan
+    given-names: Adam J.
+    orcid: "https://orcid.org/0000-0002-9429-3611"
+license: MIT
+repository-code: "https://github.com/Sullivanstatistics/ballast-paper"
+version: "1.0-submission"
+date-released: "2026-10-29"
+keywords:
+  - mixed model for repeated measures
+  - sensitivity analysis
+  - robustness
+  - simulation
+references:
+  - type: software
+    title: "ballast: Stress-Test a Pre-Specified Mixed Model for Repeated Measures"
+    authors:
+      - family-names: Sullivan
+        given-names: Adam J.
+        orcid: "https://orcid.org/0000-0002-9429-3611"
+    version: "0.7.3"
+    commit: "28be8fb103839ddc214962d0c54800d2c8b610b0"
+    doi: "10.5281/zenodo.23427833"
+    repository-code: "https://github.com/Sullivanstatistics/ballast"
+    license: MIT
+  - type: article
+    title: "Stress-testing a pre-specified mixed model for repeated measures: the ballast package"
+    authors:
+      - family-names: Sullivan
+        given-names: Adam J.
+        orcid: "https://orcid.org/0000-0002-9429-3611"
+      - family-names: Hogan
+        given-names: Nathan
+    journal: "Statistics in Biopharmaceutical Research"
+    status: submitted
+    year: 2026

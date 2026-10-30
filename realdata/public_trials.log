@@ -1,0 +1,71 @@
+
+==== Beat the Blues (BDI change at 8 months, BtheB vs TAU): estimate -0.193 (SE 2.205), 95% CI -4.593 to 4.207, p = 0.9306, z = -0.09, n = 97, obs = 280
+Base: estimate -0.193, 95% CI -4.59 to 4.21, p = 0.931 (alpha 0.05)
+Counted: 14 alternative analyses, 97 deletions; 0 significant, 0 crossed alpha
+Outside base CI: 0; direction reversed: 26; largest shift: 0.652 base SE
+Verdict (interval rule): ROBUST over all counted rows; ROBUST over the 111 sensitivity analyses (same estimand; 0 supplementary rows)
+path (all families): j = NA, MAR, delta 4 + without bdi.pre + observed LS-mean weights + cs, assumption_dependent = FALSE
+path (pure): j = NA, without bdi.pre + observed LS-mean weights + cs
+          ci significance     reversal 
+          12           NA            1 
+      mutual           ci significance 
+          11           11            7 
+removal ratio (mutual / benchmark ci): 0.9166667 
+Direction stability
+Base: estimate -0.193, 95% CI -4.59 to 4.21, p = 0.931 (z = -0.0874); not significant at alpha 0.05
+Pre-specified re-analyses: 26 of 111 reverse the direction; 0 move the estimate outside its margin of error
+                              family           label estimate     p
+                       covariate set without bdi.pre 1.210267 0.620
+              leave-one-out: subject              14 0.062210 0.978
+              leave-one-out: subject              21 0.006770 0.998
+              leave-one-out: subject              28 0.013717 0.995
+              leave-one-out: subject              29 0.135008 0.951
+              leave-one-out: subject              35 0.133338 0.952
+              leave-one-out: subject              40 0.239421 0.914
+              leave-one-out: subject              42 0.019300 0.993
+              leave-one-out: subject              45 0.139834 0.950
+              leave-one-out: subject              47 0.024067 0.991
+              leave-one-out: subject              48 0.002661 0.999
+              leave-one-out: subject              50 0.061296 0.978
+              leave-one-out: subject              53 0.039092 0.986
+              leave-one-out: subject              55 0.032811 0.988
+              leave-one-out: subject              64 0.113666 0.959
+              leave-one-out: subject              71 0.017049 0.994
+              leave-one-out: subject              72 0.005987 0.998
+              leave-one-out: subject              75 0.091939 0.967
+              leave-one-out: subject              80 0.080469 0.971
+              leave-one-out: subject              83 0.340458 0.876
+              leave-one-out: subject              86 0.128127 0.955
+              leave-one-out: subject              89 0.032663 0.988
+              leave-one-out: subject              90 0.211040 0.925
+              leave-one-out: subject              94 0.065897 0.977
+              leave-one-out: subject              95 0.048427 0.983
+ reference-based multiple imputation             J2R 0.000959 1.000
+Participants removed to reverse the direction: 1 of 97 (1%), against 1 for a well-behaved trial of this size and z (ratio 1)
+Reads: some pre-specified re-analyses change the direction or leave the margin of error, so the estimate depends on analytic choices, and the result does not rest on a few participants.
+This describes the strength and stability of the evidence. At the same z a chance finding behaves the same way under every
+re-analysis that keeps the estimand, so it does not show that the effect is real; read it beside the p-value.
+elapsed 0.5 min
+
+==== ddI vs ddC (CD4 change, square-root scale, at 12 months): estimate 0.313 (SE 0.404), 95% CI -0.482 to 1.109, p = 0.4389, z = 0.78, n = 406, obs = 938
+Base: estimate 0.313, 95% CI -0.482 to 1.11, p = 0.439 (alpha 0.05)
+Counted: 14 alternative analyses, 406 deletions; 0 significant, 0 crossed alpha
+Outside base CI: 0; direction reversed: 0; largest shift: 0.382 base SE
+Verdict (interval rule): ROBUST over all counted rows; ROBUST over the 420 sensitivity analyses (same estimand; 0 supplementary rows)
+path (all families): j = NA, J2R + without prevOI + observed LS-mean weights + ar1h, assumption_dependent = FALSE
+path (pure): j = NA, without cd4_base + ar1h + observed LS-mean weights
+          ci significance     reversal 
+          19           NA            7 
+      mutual           ci significance 
+          12           14            6 
+removal ratio (mutual / benchmark ci): 0.6315789 
+Direction stability
+Base: estimate 0.313, 95% CI -0.482 to 1.11, p = 0.439 (z = 0.775); not significant at alpha 0.05
+Pre-specified re-analyses: 0 of 420 reverse the direction; 0 move the estimate outside its margin of error
+Participants removed to reverse the direction: 4 of 406 (1%), against 7 for a well-behaved trial of this size and z (ratio 0.57)
+Reads: the direction and size of the estimate do not depend on the analytic choices, and the result does not rest on a few participants.
+This describes the strength and stability of the evidence. At the same z a chance finding behaves the same way under every
+re-analysis that keeps the estimand, so it does not show that the effect is real; read it beside the p-value.
+elapsed 1.2 min
+
+DONE

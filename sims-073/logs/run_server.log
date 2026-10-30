@@ -1,0 +1,41 @@
+[2026-10-28 17:56:18 UTC] server run on <server>: ballast 0.7.3 commit 28be8fb10383, R version 4.6.1 (2026-06-24), 30 workers
+[2026-10-28 17:56:18 UTC] job5_study2 starting
+[2026-10-28 20:08:54 UTC] job5_study2 finished with status 1 ()
+[2026-10-28 20:08:54 UTC] SERVER RUN DONE
+[2026-10-28 20:11:15 UTC] attempt 1 stopped at the 50-trial check (compared with the 0.6.0 label column instead of stability_071); rerun from the saved cells
+[2026-10-28 20:11:15 UTC] server run on <server>: ballast 0.7.3 commit 28be8fb10383, R version 4.6.1 (2026-06-24), 30 workers
+[2026-10-28 20:11:15 UTC] job5_study2 starting
+[2026-10-28 20:11:16 UTC] job5_study2 finished with status 0 (elapsed 0.0 min)
+[2026-10-28 20:11:16 UTC] fig03_sim_verdicts starting
+[2026-10-28 20:11:18 UTC] fig03_sim_verdicts finished with status 0
+[2026-10-28 20:11:18 UTC] SERVER RUN DONE
+[2026-10-28 20:15:11 UTC] attempt 2 summary had frag_k1_given_sig = 1 everywhere (mean of 1/NA with na.rm); summary regenerated from the saved cells with the 0.6.0 definition
+[2026-10-28 20:15:12 UTC] server run on <server>: ballast 0.7.3 commit 28be8fb10383, R version 4.6.1 (2026-06-24), 30 workers
+[2026-10-28 20:15:12 UTC] job5_study2 starting
+[2026-10-28 20:15:12 UTC] job5_study2 finished with status 0 (elapsed 0.0 min)
+[2026-10-28 20:15:12 UTC] fig03_sim_verdicts starting
+[2026-10-28 20:15:14 UTC] fig03_sim_verdicts finished with status 0
+[2026-10-28 20:15:14 UTC] SERVER RUN DONE
+[2026-10-28 20:18:26 UTC] fig03_sim_verdicts redrawn after the strip label 'heteroscedastic' was shortened to 'unequal variances' (it did not wrap)
+[2026-10-29 17:29:15 UTC] server run (Jobs 7, 8, S4) on <server>: ballast 0.7.3 commit 28be8fb10383, R version 4.6.1 (2026-06-24), 30 workers, 2000 null trials, root <redacted>/2026-10-29-methods-sims-073
+[2026-10-29 17:29:15 UTC] job7_null starting
+[2026-10-29 17:47:14 UTC] job7_null finished with status 0 (elapsed 18.0 min)
+[2026-10-29 17:47:14 UTC] job8_chance_finding starting
+[2026-10-29 17:47:28 UTC] job8_chance_finding finished with status 0 (elapsed 0.2 min)
+[2026-10-29 17:47:28 UTC] figS4_chance_finding starting
+[2026-10-29 17:47:30 UTC] figS4_chance_finding finished with status 0 (elapsed 0.0 min)
+[2026-10-29 17:47:30 UTC] SERVER RUN DONE (Jobs 7, 8, S4)
+[2026-10-29 18:19:23 UTC] job9_pilot starting
+[2026-10-29 18:19:25 UTC] job9_pilot finished with status 0
+[2026-10-29 18:23:58 UTC] job9_defect_trials starting on <server>: cells all, ballast 0.7.3 commit 28be8fb10383, 30 workers
+[2026-10-29 18:31:27 UTC] job9_pilot_B starting (2 workers, alongside job9)
+[2026-10-29 18:31:38 UTC] job9_pilot_B finished with status 0
+[2026-10-29 18:43:12 UTC] job9_defect_trials finished with status 0 (elapsed 19.2 min)
+[2026-10-29 18:43:56 UTC] job9_defect_trials starting on <server>: cells B25k5,B25k8,B50x2k8, ballast 0.7.3 commit 28be8fb10383, 30 workers
+[2026-10-29 18:48:45 UTC] job9_defect_trials finished with status 0 (elapsed 4.8 min)
+[2026-10-29 18:49:39 UTC] job9_summary starting
+[2026-10-29 18:49:42 UTC] job9_summary finished with status 0
+[2026-10-29 18:49:42 UTC] job9_figure_trials starting
+[2026-10-29 18:50:06 UTC] job9_figure_trials finished with status 0
+[2026-10-29 18:50:06 UTC] figS5_defect_trials starting
+[2026-10-29 18:50:09 UTC] figS5_defect_trials finished with status 0

@@ -1,0 +1,6 @@
+==== figS5_defect_trials: ballast 0.7.3 (commit 28be8fb10383), R version 4.6.1 (2026-06-24), x86_64-pc-linux-gnu Linux, 30 workers, 2026-10-29 18:50:07 ====
+A. A80 (seed 92166): A80: 7 alternative analyses drawn, 108 deletions drawn, 0 counted rows without an estimate, 0 diagnostic refits drawn hollow and not counted
+B. B25k8 (seed 99107): B25k8: 7 alternative analyses drawn, 58 deletions drawn, 0 counted rows without an estimate, 0 diagnostic refits drawn hollow and not counted
+C. C45 (seed 95151): C45: 7 alternative analyses drawn, 108 deletions drawn, 0 counted rows without an estimate, 0 diagnostic refits drawn hollow and not counted
+D. D09 (seed 97048): D09: 7 alternative analyses drawn, 108 deletions drawn, 0 counted rows without an estimate, 0 diagnostic refits drawn hollow and not counted
+==== figS5_defect_trials done: elapsed 0.0 min ====

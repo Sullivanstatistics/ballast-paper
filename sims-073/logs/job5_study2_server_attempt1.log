@@ -1,0 +1,16 @@
+==== job5_study2: ballast 0.7.3 (commit 28be8fb10383), R version 4.6.1 (2026-06-24), x86_64-pc-linux-gnu Linux, 30 workers, 2026-10-28 17:56:18 ====
+cells: 10 of 15 (null cells dropped) x 400 trials = 4000 trials on 30 workers
+base2 power 0.8: 400 of 400 trials, 13.6 min
+base2 power 0.95: 400 of 400 trials, 13.6 min
+heavy power 0.8: 400 of 400 trials, 14.0 min
+heavy power 0.95: 400 of 400 trials, 17.2 min
+hetero power 0.8: 400 of 400 trials, 13.2 min
+hetero power 0.95: 400 of 400 trials, 13.3 min
+mnar power 0.8: 400 of 400 trials, 11.0 min
+mnar power 0.95: 400 of 400 trials, 11.0 min
+interact power 0.8: 400 of 400 trials, 12.8 min
+interact power 0.95: 400 of 400 trials, 12.8 min
+
+check of the first 50 trials per cell against study2_reclass.csv: 500 rows matched by seed (expected 500); estimate 500 ok, SE 500 ok, p 500 ok, label 484 ok, largest shift 500 ok
+Error: the first 50 trials of a cell do not reproduce the 0.6.0 run; stopping before any summary is written (see results/study2_400_check50.csv)
+Execution halted

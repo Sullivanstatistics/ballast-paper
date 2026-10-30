@@ -1,0 +1,130 @@
+==== job8_chance_finding: ballast 0.7.3 (commit 28be8fb10383), R version 4.6.1 (2026-06-24), x86_64-pc-linux-gnu Linux, 30 workers, 2026-10-29 17:47:14 ====
+94 significant of 2000 null trials; nearest filed p to 0.03: seed 1510, p 0.029952 (1 tied within 1e-9)
+the five nearest:
+ seed     base_p stability marginal frag_k
+ 1510 0.02995189 sensitive     TRUE      2
+ 2997 0.02992760 sensitive     TRUE      1
+ 2851 0.02977048 sensitive     TRUE      1
+ 1839 0.02939726    robust     TRUE      2
+ 2630 0.02927444 sensitive     TRUE      1
+regenerated trial against its Job 7 row (estimate, SE, p, participants): TRUE TRUE TRUE TRUE 
+**Stress test of the primary analysis (pre-specified).** After database lock and unblinding, the primary analysis of Chance finding (no effect, filed p near 0.03) will be stress-tested with the ballast R package (version 0.7.3): the pre-specified model will be refitted under the families of perturbations listed below, and every refit will be judged against the pre-specified estimate, its 95% confidence interval and the two-sided significance level of 0.05.
+
+**Pre-specified analysis.** y ~ base + arm + visit + arm:visit + us(visit | id), with the treatment contrast TRT minus PBO at V4 formed from least-squares means (equal weights), Satterthwaite degrees of freedom and the Asymptotic variance estimator.
+
+**Perturbation families.** The families and their settings are fixed as follows and will not be changed after unblinding:
+
+- 1. Within-subject covariance structure: structures = us, ar1h, ar1, cs, csh, toep, toeph
+
+- 2. Degrees-of-freedom method and variance estimator: defaults
+
+- 3. Covariate set: defaults
+
+- 4. Least-squares-mean weighting (equal versus observed margins): defaults
+
+- 5. Leave-one-out deletions: defaults
+
+- 6. Re-randomisation test: n = 2000
+
+- 7. Delta-adjusted multiple imputation (tipping point): deltas = 0, -2, -4, -6; m = 25; shift_visits = V4
+
+- 8. Reference-based multiple imputation (MAR, J2R, CR, CIR): m = 25
+
+- 9. Estimator class: estimators = complete_cases, gee_independence, ancova, robust_ancova, clda; baseline = base; diagnostic = complete_cases. The complete cases refit is fitted, drawn and tabulated as a diagnostic and is not counted.
+
+- 10. Smallest set of subjects that changes the conclusion: target = significance; max_k = 5
+
+**Counting rule.** A refit that reproduces the pre-specified analysis exactly is not counted. A specification reached by two families (the same estimate, standard error, degrees of freedom and number of observations) is counted once. Tipping-point grids and the deletion search are searches and are not counted; the delta-zero multiple-imputation analysis is counted. Deletions are counted but summarised separately from alternative analyses. Refits that do not converge are reported and not counted. Refits the plan marks as diagnostic (in the standard stress test, the pre-specified model on complete cases) are fitted, drawn and tabulated with their status but are not counted and do not enter the classification.
+
+**Classification.** The result will be classed *fragile* if any counted alternative lands outside the pre-specified 95% confidence interval; otherwise *sensitive* if any counted alternative crosses the significance level; otherwise *robust*. The pre-specified p-value will be flagged *marginal* if it lies between half and twice the significance level. The classification will be reported over all counted refits and over the sensitivity analyses alone (those that keep the estimand); alternative data sets, populations, other visits and intercurrent-event strategies are supplementary analyses and will be labelled as such.
+
+**Reporting.** The per-family summary (analyses, significant, crossed, outside the interval, reversed, range as a percentage of the pre-specified estimate, largest shift in pre-specified standard errors), the list of refits that crossed the significance level or left the interval, the deletion-search path, the full census, the bubble-swarm, deletion-strip and tipping-point figures, and a run log with the seed, software versions and the hash of this plan will be provided as an appendix to the clinical study report. Subject identifiers will be masked in any version that leaves the sponsor.
+
+**Plan hash.** MD5 of the plan text as fixed in this document: `8503b2d9d65ee217a0a6f843bc4659a2`. The run log will carry the same hash.
+Base: estimate -4.89, 95% CI -9.29 to -0.486, p = 0.03 (alpha 0.05)
+Counted: 22 alternative analyses, 100 deletions; 117 significant, 5 crossed alpha; 1 diagnostic refit fitted and shown, not counted
+Outside base CI: 0; direction reversed: 0; largest shift: 0.624 base SE
+Verdict (interval rule): SENSITIVE over all counted rows; SENSITIVE over the 122 sensitivity analyses (same estimand; 0 supplementary rows); marginal: base p near alpha
+Rows that crossed alpha:
+                              family                                      label
+                       covariate set                               without base
+ reference-based multiple imputation                                        J2R
+ reference-based multiple imputation                                         CR
+ reference-based multiple imputation                                        CIR
+                     estimator class MM robust regression at the contrast visit
+ estimate      p
+    -3.51 0.1426
+    -3.97 0.0818
+    -4.02 0.0778
+    -4.26 0.0652
+    -4.36 0.0659
+Base analysis: estimate -4.89 (SE 2.21), 95% CI -9.29 to -0.486, p = 0.03
+                              family        kind   n significant crossed
+                covariance structure alternative   6           6       0
+                           inference alternative   5           5       0
+                       covariate set alternative   1           0       1
+              leave-one-out: subject    deletion 100         100       0
+               re-randomisation test alternative   1           1       0
+  delta-adjusted multiple imputation alternative   1           1       0
+ reference-based multiple imputation alternative   4           1       3
+                     estimator class alternative   4           3       1
+                     estimator class  diagnostic   1           1       0
+                     All sensitivity         all 122         117       5
+                                 All         all 122         117       5
+ outside_ci reversed pct_min pct_max max_shift_se counted        role
+          0        0     100     100         0.01    TRUE sensitivity
+          0        0     100     100         0.00    TRUE sensitivity
+          0        0      72      72         0.62    TRUE sensitivity
+          0        0      89     111         0.25    TRUE sensitivity
+          0        0     100     100         0.00    TRUE sensitivity
+          0        0      97      97         0.07    TRUE sensitivity
+          0        0      81      99         0.42    TRUE sensitivity
+          0        0      89     102         0.24    TRUE sensitivity
+          0        0     102     102         0.05   FALSE sensitivity
+          0        0      72     111         0.62    TRUE sensitivity
+          0        0      72     111         0.62    TRUE         all
+                              [,1]                                                               
+seed                          1510                                                               
+estimate                      -4.88924                                                           
+se                            2.214815                                                           
+lcl                           -9.292416                                                          
+ucl                           -0.4860645                                                         
+p                             0.02995189                                                         
+n_subj                        100                                                                
+n_obs                         361                                                                
+verdict                       sensitive                                                          
+marginal                      TRUE                                                               
+rule                          interval                                                           
+counted_alternatives          22                                                                 
+counted_deletions             100                                                                
+diagnostic_rows               1                                                                  
+not_converged                 0                                                                  
+crossed                       5                                                                  
+crossed_alternatives          5                                                                  
+crossed_deletions             0                                                                  
+crossed_families              covariate set; reference-based multiple imputation; estimator class
+outside_ci                    0                                                                  
+reversed                      0                                                                  
+max_shift_se                  0.6235134                                                          
+greedy_k_to_lose_significance 2                                                                  
+job7_stability                sensitive                                                          
+job7_marginal                 TRUE                                                               
+job7_frag_k                   2                                                                  
+elapsed_min                   0.2158926                                                          
+ballast                       0.7.3                                                              
+commit                        28be8fb10383                                                       
+
+counted rows that crossed alpha:
+                              family                                      label
+                       covariate set                               without base
+ reference-based multiple imputation                                        J2R
+ reference-based multiple imputation                                         CR
+ reference-based multiple imputation                                        CIR
+                     estimator class MM robust regression at the contrast visit
+        kind  estimate          p inside_ci  shift_se
+ alternative -3.508274 0.14261713      TRUE 0.6235134
+ alternative -3.965882 0.08178317      TRUE 0.4169007
+ alternative -4.016202 0.07776079      TRUE 0.3941810
+ alternative -4.262152 0.06521871      TRUE 0.2831336
+ alternative -4.359327 0.06592885      TRUE 0.2392586
+==== job8_chance_finding done: elapsed 0.2 min ====

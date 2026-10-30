@@ -1,0 +1,39 @@
+"trial","quantity","run_072","run_073","same"
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","estimate","-2.87204817894317","-2.87204817894317",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","se","1.10284494136923","1.10284494136923",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","lcl","-5.05087147192495","-5.05087147192495",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","ucl","-0.693224885961403","-0.693224885961403",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","p","0.0101187828487483","0.0101187828487483",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","n_subj","172","172",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","n_obs","608","608",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","counted_alternatives","23","22",FALSE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","counted_deletions","171","171",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","not_converged","0","0",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","crossed","0","0",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","outside_ci","0","0",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","reversed","0","0",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","max_shift_se","0.589497355673463","0.589497355673463",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","tipping_point","1.42848634165791","1.42848634165791",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","greedy_k_to_lose_significance","5","5",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","verdict","robust","robust",TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","direction_reversed_by",NA,NA,TRUE
+"Duloxetine vs placebo (HAMD-17 change at visit 7)","direction_k_rev",NA,NA,TRUE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","estimate","0.313392315838905","0.313392315838905",TRUE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","se","0.404247843859987","0.404247843859987",TRUE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","lcl","-0.482490372905181","-0.482490372905181",TRUE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","ucl","1.10927500458299","1.10927500458299",TRUE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","p","0.438872347431962","0.438872347431962",TRUE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","n_subj","406","406",TRUE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","n_obs","938","938",TRUE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","counted_alternatives","26","25",FALSE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","counted_deletions","406","406",TRUE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","not_converged","0","0",TRUE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","crossed","0","0",TRUE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","outside_ci","1","0",FALSE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","reversed","1","0",FALSE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","max_shift_se","2.50434830600751","0.427803216583548",FALSE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","tipping_point","-1.77100237373717","-1.77100237373717",TRUE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","greedy_k_to_lose_significance",NA,NA,TRUE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","verdict","fragile","robust",FALSE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","direction_reversed_by","1","0",FALSE
+"Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)","direction_k_rev","4","4",TRUE

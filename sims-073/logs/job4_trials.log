@@ -1,0 +1,53 @@
+==== job4_trials: ballast 0.7.3 (commit 28be8fb10383), R version 4.5.3 (2026-03-11 ucrt), x86_64-w64-mingw32 Windows, 8 workers, 2026-10-28 10:53:59 ====
+chosen trials (seed, filed p):
+ power seed      base_p stability                              label
+  0.00 1005 0.524323841    robust        No effect (planned power 0)
+  0.50 2006 0.011743650    robust    Mild effect (planned power 0.5)
+  0.95 4137 0.000716314    robust Strong effect (planned power 0.95)
+No effect (planned power 0): filed p 0.5243, verdict robust, 0.5 min
+Mild effect (planned power 0.5): filed p 0.0117, verdict robust, 0.5 min
+Strong effect (planned power 0.95): filed p 0.0007, verdict robust, 0.4 min
+No effect (planned power 0): 22 alternative analyses drawn, 100 deletions drawn, 0 counted rows without an estimate, 1 diagnostic refits drawn hollow and not counted
+Mild effect (planned power 0.5): 22 alternative analyses drawn, 100 deletions drawn, 0 counted rows without an estimate, 1 diagnostic refits drawn hollow and not counted
+Strong effect (planned power 0.95): 22 alternative analyses drawn, 100 deletions drawn, 0 counted rows without an estimate, 1 diagnostic refits drawn hollow and not counted
+broken trial outlier: delta 3, seed 27, filed p 0.0294
+broken trial site: delta 40, seed 30, filed p 0.0285
+One participant at +10 residual SD: filed p 0.0294, verdict sensitive, 0.4 min
+Effect carried by one of eight sites: filed p 0.0285, verdict sensitive, 0.4 min
+One participant at +10 residual SD: 25 alternative analyses drawn, 108 deletions drawn, 0 counted rows without an estimate, 1 diagnostic refits drawn hollow and not counted
+Effect carried by one of eight sites: 25 alternative analyses drawn, 108 deletions drawn, 0 counted rows without an estimate, 1 diagnostic refits drawn hollow and not counted
+                                trial label  estimate         lcl       ucl
+   One participant at +10 residual SD site1 5.4990028 -0.46557285 11.463578
+   One participant at +10 residual SD site2 6.3352235  0.73395033 11.936497
+   One participant at +10 residual SD site3 5.6942259  0.25341870 11.135033
+   One participant at +10 residual SD site4 4.2756509 -0.24372886  8.795031
+   One participant at +10 residual SD site5 6.0830088  0.56742985 11.598588
+   One participant at +10 residual SD site6 5.8971844  0.35814254 11.436226
+   One participant at +10 residual SD site7 6.4233782  0.53330116 12.313455
+   One participant at +10 residual SD site8 6.1902942  0.01245851 12.368130
+ Effect carried by one of eight sites site1 0.9906783 -4.17365657  6.155013
+ Effect carried by one of eight sites site2 9.6000939  2.37256609 16.827622
+ Effect carried by one of eight sites site3 8.6357898  1.65645228 15.615127
+ Effect carried by one of eight sites site4 8.2431951  0.90025758 15.586133
+ Effect carried by one of eight sites site5 7.6780208  0.77550979 14.580532
+ Effect carried by one of eight sites site6 6.3658498 -0.92762574 13.659325
+ Effect carried by one of eight sites site7 7.9571231  0.62012766 15.294118
+ Effect carried by one of eight sites site8 8.5252884  1.40548488 15.645092
+           p crossed inside_ci
+ 0.070242758    TRUE      TRUE
+ 0.027156883   FALSE      TRUE
+ 0.040458026   FALSE      TRUE
+ 0.063306653    TRUE      TRUE
+ 0.031057075   FALSE      TRUE
+ 0.037218479   FALSE      TRUE
+ 0.032987587   FALSE      TRUE
+ 0.049551733   FALSE      TRUE
+ 0.703044541    TRUE      TRUE
+ 0.009947222   FALSE      TRUE
+ 0.015979036   FALSE      TRUE
+ 0.028323489   FALSE      TRUE
+ 0.029716092   FALSE      TRUE
+ 0.086139411    TRUE      TRUE
+ 0.033949423   FALSE      TRUE
+ 0.019596487   FALSE      TRUE
+==== job4_trials done: elapsed 2.5 min ====

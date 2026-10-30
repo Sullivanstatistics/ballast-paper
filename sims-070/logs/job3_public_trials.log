@@ -1,0 +1,196 @@
+==== job3_public_trials: ballast 0.7.2 (commit e883efff2773), R version 4.5.3 (2026-03-11 ucrt), x86_64-w64-mingw32 Windows, 8 workers, 2026-10-28 08:54:19 ====
+duloxetine filed-analysis check (estimate, SE, p, participants, observations): TRUE TRUE TRUE TRUE TRUE 
+
+==== Duloxetine vs placebo (HAMD-17 change at visit 7) ====
+   estimate   stderr       df       lcl        ucl          p n_subj n_obs
+1 -2.872048 1.102845 152.5301 -5.050871 -0.6932249 0.01011878    172   608
+**Stress test of the primary analysis (pre-specified).** After database lock and unblinding, the primary analysis of Duloxetine vs placebo (HAMD-17 change at visit 7) will be stress-tested with the ballast R package (version 0.7.2): the pre-specified model will be refitted under the families of perturbations listed below, and every refit will be judged against the pre-specified estimate, its 95% confidence interval and the two-sided significance level of 0.05.
+
+**Pre-specified analysis.** CHANGE ~ BASVAL + THERAPY + VISIT + THERAPY:VISIT + us(VISIT | PATIENT), with the treatment contrast DRUG minus PLACEBO at 7 formed from least-squares means (equal weights), Satterthwaite degrees of freedom and the Asymptotic variance estimator.
+
+**Perturbation families.** The families and their settings are fixed as follows and will not be changed after unblinding:
+
+- 1. Within-subject covariance structure: structures = us, ar1h, ar1, cs, csh, toep, toeph
+
+- 2. Degrees-of-freedom method and variance estimator: defaults
+
+- 3. Covariate set: defaults
+
+- 4. Least-squares-mean weighting (equal versus observed margins): defaults
+
+- 5. Leave-one-out deletions: defaults
+
+- 6. Re-randomisation test: n = 2000
+
+- 7. Delta-adjusted multiple imputation (tipping point): deltas = 0, 1, 2, 3, 4, 5, 6; m = 25; shift_visits = 7
+
+- 8. Reference-based multiple imputation (MAR, J2R, CR, CIR): m = 25
+
+- 9. Estimator class: estimators = complete_cases, gee_independence, ancova, robust_ancova, clda; baseline = BASVAL
+
+- 10. Smallest set of subjects that changes the conclusion: target = significance; max_k = 5
+
+**Counting rule.** A refit that reproduces the pre-specified analysis exactly is not counted. A specification reached by two families (the same estimate, standard error, degrees of freedom and number of observations) is counted once. Tipping-point grids and the deletion search are searches and are not counted; the delta-zero multiple-imputation analysis is counted. Deletions are counted but summarised separately from alternative analyses. Refits that do not converge are reported and not counted.
+
+**Classification.** The result will be classed *fragile* if any counted alternative lands outside the pre-specified 95% confidence interval; otherwise *sensitive* if any counted alternative crosses the significance level; otherwise *robust*. The pre-specified p-value will be flagged *marginal* if it lies between half and twice the significance level. The classification will be reported over all counted refits and over the sensitivity analyses alone (those that keep the estimand); alternative data sets, populations, other visits and intercurrent-event strategies are supplementary analyses and will be labelled as such.
+
+**Reporting.** The per-family summary (analyses, significant, crossed, outside the interval, reversed, range as a percentage of the pre-specified estimate, largest shift in pre-specified standard errors), the list of refits that crossed the significance level or left the interval, the deletion-search path, the full census, the bubble-swarm, deletion-strip and tipping-point figures, and a run log with the seed, software versions and the hash of this plan will be provided as an appendix to the clinical study report. Subject identifiers will be masked in any version that leaves the sponsor.
+
+**Plan hash.** MD5 of the plan text as fixed in this document: `62aafec448f2b6f4dcf456f00d122de0`. The run log will carry the same hash.
+run_plan: 0.6 min
+Base: estimate -2.87, 95% CI -5.05 to -0.693, p = 0.0101 (alpha 0.05)
+Counted: 23 alternative analyses, 171 deletions; 194 significant, 0 crossed alpha
+Outside base CI: 0; direction reversed: 0; largest shift: 0.589 base SE
+Verdict (interval rule): ROBUST over all counted rows; ROBUST over the 194 sensitivity analyses (same estimand; 0 supplementary rows)
+Base analysis: estimate -2.87 (SE 1.1), 95% CI -5.05 to -0.693, p = 0.0101
+                              family        kind   n significant crossed
+                covariance structure alternative   6           6       0
+                           inference alternative   5           5       0
+                       covariate set alternative   1           1       0
+              leave-one-out: subject    deletion 171         171       0
+               re-randomisation test alternative   1           1       0
+  delta-adjusted multiple imputation alternative   1           1       0
+ reference-based multiple imputation alternative   4           4       0
+                     estimator class alternative   5           5       0
+                     All sensitivity         all 194         194       0
+                                 All         all 194         194       0
+ outside_ci reversed pct_min pct_max max_shift_se        role
+          0        0      95     104         0.13 sensitivity
+          0        0     100     100         0.00 sensitivity
+          0        0     115     115         0.40 sensitivity
+          0        0      93     109         0.23 sensitivity
+          0        0     100     100         0.00 sensitivity
+          0        0      95      95         0.13 sensitivity
+          0        0      77     102         0.59 sensitivity
+          0        0      93      99         0.19 sensitivity
+          0        0      77     115         0.59 sensitivity
+          0        0      77     115         0.59         all
+
+==== Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months) ====
+   estimate    stderr       df        lcl      ucl         p n_subj n_obs
+1 0.3133923 0.4042478 269.7011 -0.4824904 1.109275 0.4388723    406   938
+**Stress test of the primary analysis (pre-specified).** After database lock and unblinding, the primary analysis of Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months) will be stress-tested with the ballast R package (version 0.7.2): the pre-specified model will be refitted under the families of perturbations listed below, and every refit will be judged against the pre-specified estimate, its 95% confidence interval and the two-sided significance level of 0.05.
+
+**Pre-specified analysis.** change ~ cd4_base + prevOI + AZT + drug + visit + drug:visit + us(visit | patient), with the treatment contrast ddI minus ddC at 12 formed from least-squares means (equal weights), Satterthwaite degrees of freedom and the Asymptotic variance estimator.
+
+**Perturbation families.** The families and their settings are fixed as follows and will not be changed after unblinding:
+
+- 1. Within-subject covariance structure: structures = us, ar1h, ar1, cs, csh, toep, toeph
+
+- 2. Degrees-of-freedom method and variance estimator: defaults
+
+- 3. Covariate set: defaults
+
+- 4. Least-squares-mean weighting (equal versus observed margins): defaults
+
+- 5. Leave-one-out deletions: defaults
+
+- 6. Re-randomisation test: n = 2000
+
+- 7. Delta-adjusted multiple imputation (tipping point): deltas = 0, -0.5, -1, -1.5, -2; m = 25; shift_visits = 12
+
+- 8. Reference-based multiple imputation (MAR, J2R, CR, CIR): m = 25
+
+- 9. Estimator class: estimators = complete_cases, gee_independence, ancova, robust_ancova, clda; baseline = cd4_base
+
+- 10. Smallest set of subjects that changes the conclusion: target = significance; max_k = 5
+
+**Counting rule.** A refit that reproduces the pre-specified analysis exactly is not counted. A specification reached by two families (the same estimate, standard error, degrees of freedom and number of observations) is counted once. Tipping-point grids and the deletion search are searches and are not counted; the delta-zero multiple-imputation analysis is counted. Deletions are counted but summarised separately from alternative analyses. Refits that do not converge are reported and not counted.
+
+**Classification.** The result will be classed *fragile* if any counted alternative lands outside the pre-specified 95% confidence interval; otherwise *sensitive* if any counted alternative crosses the significance level; otherwise *robust*. The pre-specified p-value will be flagged *marginal* if it lies between half and twice the significance level. The classification will be reported over all counted refits and over the sensitivity analyses alone (those that keep the estimand); alternative data sets, populations, other visits and intercurrent-event strategies are supplementary analyses and will be labelled as such.
+
+**Reporting.** The per-family summary (analyses, significant, crossed, outside the interval, reversed, range as a percentage of the pre-specified estimate, largest shift in pre-specified standard errors), the list of refits that crossed the significance level or left the interval, the deletion-search path, the full census, the bubble-swarm, deletion-strip and tipping-point figures, and a run log with the seed, software versions and the hash of this plan will be provided as an appendix to the clinical study report. Subject identifiers will be masked in any version that leaves the sponsor.
+
+**Plan hash.** MD5 of the plan text as fixed in this document: `74e033a431467685e492c366f964a3a5`. The run log will carry the same hash.
+run_plan: 1.4 min
+Base: estimate 0.313, 95% CI -0.482 to 1.11, p = 0.439 (alpha 0.05)
+Counted: 26 alternative analyses, 406 deletions; 0 significant, 0 crossed alpha
+Outside base CI: 1; direction reversed: 1; largest shift: 2.5 base SE
+Verdict (interval rule): FRAGILE over all counted rows; FRAGILE over the 432 sensitivity analyses (same estimand; 0 supplementary rows)
+Rows outside the CI:
+          family                  label estimate     p
+ estimator class MMRM on complete cases   -0.699 0.637
+Base analysis: estimate 0.313 (SE 0.404), 95% CI -0.482 to 1.11, p = 0.439
+                              family        kind   n significant crossed
+                covariance structure alternative   6           0       0
+                           inference alternative   5           0       0
+                       covariate set alternative   4           0       0
+              leave-one-out: subject    deletion 406           0       0
+               re-randomisation test alternative   1           0       0
+  delta-adjusted multiple imputation alternative   1           0       0
+ reference-based multiple imputation alternative   4           0       0
+                     estimator class alternative   5           0       0
+                     All sensitivity         all 432           0       0
+                                 All         all 432           0       0
+ outside_ci reversed pct_min pct_max max_shift_se        role
+          0        0     100     114         0.11 sensitivity
+          0        0     100     100         0.00 sensitivity
+          0        0      96     104         0.03 sensitivity
+          0        0      51     135         0.38 sensitivity
+          0        0     100     100         0.00 sensitivity
+          0        0      79      79         0.16 sensitivity
+          0        0      72     153         0.41 sensitivity
+          1        1    -223     155         2.50 sensitivity
+          1        1    -223     155         2.50 sensitivity
+          1        1    -223     155         2.50         all
+Direction stability
+Base: estimate 0.313, 95% CI -0.482 to 1.11, p = 0.439 (z = 0.775); not significant at alpha 0.05
+Pre-specified re-analyses: 1 of 432 reverse the direction; 1 move the estimate outside the filed interval
+          family                  label estimate     p
+ estimator class MMRM on complete cases   -0.699 0.637
+Participants removed to reverse the direction (ranked search): 4 of 406 (1%): 188, 185, 245, 385
+                              [,1]                                               
+trial                         "Duloxetine vs placebo (HAMD-17 change at visit 7)"
+estimate                      "-2.8720482"                                       
+se                            "1.1028449"                                        
+lcl                           "-5.0508715"                                       
+ucl                           "-0.6932249"                                       
+p                             "0.01011878"                                       
+n_subj                        "172"                                              
+n_obs                         "608"                                              
+counted_alternatives          "23"                                               
+counted_deletions             "171"                                              
+not_converged                 "0"                                                
+crossed                       "0"                                                
+crossed_families              ""                                                 
+outside_ci                    "0"                                                
+reversed                      "0"                                                
+max_shift_se                  "0.5894974"                                        
+tipping_point                 " 1.428486"                                        
+greedy_k_to_lose_significance " 5"                                               
+verdict                       "robust"                                           
+marginal                      "FALSE"                                            
+rule                          "interval"                                         
+direction_reversed_by         NA                                                 
+direction_k_rev               NA                                                 
+elapsed_min                   "0.6420171"                                        
+ballast                       "0.7.2"                                            
+commit                        "e883efff2773"                                     
+                              [,2]                                                                     
+trial                         "Didanosine vs zalcitabine (CD4 change, square-root scale, at 12 months)"
+estimate                      " 0.3133923"                                                             
+se                            "0.4042478"                                                              
+lcl                           "-0.4824904"                                                             
+ucl                           " 1.1092750"                                                             
+p                             "0.43887235"                                                             
+n_subj                        "406"                                                                    
+n_obs                         "938"                                                                    
+counted_alternatives          "26"                                                                     
+counted_deletions             "406"                                                                    
+not_converged                 "0"                                                                      
+crossed                       "0"                                                                      
+crossed_families              ""                                                                       
+outside_ci                    "1"                                                                      
+reversed                      "1"                                                                      
+max_shift_se                  "2.5043483"                                                              
+tipping_point                 "-1.771002"                                                              
+greedy_k_to_lose_significance NA                                                                       
+verdict                       "fragile"                                                                
+marginal                      "FALSE"                                                                  
+rule                          "interval"                                                               
+direction_reversed_by         " 1"                                                                     
+direction_k_rev               " 4"                                                                     
+elapsed_min                   "1.3519871"                                                              
+ballast                       "0.7.2"                                                                  
+commit                        "e883efff2773"                                                           
+==== job3_public_trials done: elapsed 2.4 min ====

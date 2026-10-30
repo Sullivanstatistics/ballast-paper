@@ -1,0 +1,117 @@
+==== job6_spec_grid: ballast 0.7.3 (commit 28be8fb10383), R version 4.5.3 (2026-03-11 ucrt), x86_64-w64-mingw32 Windows, 8 workers, 2026-10-28 10:56:31 ====
+duloxetine filed-analysis check (estimate, SE, p, participants, observations): TRUE TRUE TRUE TRUE TRUE 
+stress_grid: 42 specifications in 0.0 min; 42 converged; 1 reproduce the pre-specified analysis
+ covariance                inference   covariates estimate     se         p
+         us            Satterthwaite  baseline in   -2.872 1.1028 0.0101188
+       ar1h            Satterthwaite  baseline in   -2.759 1.0656 0.0104635
+        ar1            Satterthwaite  baseline in   -2.723 0.9650 0.0050191
+         cs            Satterthwaite  baseline in   -2.854 0.9496 0.0028408
+        csh            Satterthwaite  baseline in   -2.978 1.0771 0.0063624
+       toep            Satterthwaite  baseline in   -2.758 0.9578 0.0042188
+      toeph            Satterthwaite  baseline in   -2.857 1.0616 0.0078502
+         us   Kenward-Roger (linear)  baseline in   -2.872 1.1051 0.0102722
+       ar1h   Kenward-Roger (linear)  baseline in   -2.759 1.0663 0.0105157
+        ar1   Kenward-Roger (linear)  baseline in   -2.723 0.9653 0.0050322
+         cs   Kenward-Roger (linear)  baseline in   -2.854 0.9497 0.0028453
+        csh   Kenward-Roger (linear)  baseline in   -2.978 1.0778 0.0063992
+       toep   Kenward-Roger (linear)  baseline in   -2.758 0.9595 0.0042851
+      toeph   Kenward-Roger (linear)  baseline in   -2.857 1.0637 0.0079709
+         us Sandwich, between-within  baseline in   -2.872 1.0939 0.0089602
+       ar1h Sandwich, between-within  baseline in   -2.759 1.0932 0.0119612
+        ar1 Sandwich, between-within  baseline in   -2.723 1.0971 0.0134321
+         cs Sandwich, between-within  baseline in   -2.854 1.0880 0.0090303
+        csh Sandwich, between-within  baseline in   -2.978 1.0879 0.0064446
+       toep Sandwich, between-within  baseline in   -2.758 1.0922 0.0119146
+      toeph Sandwich, between-within  baseline in   -2.857 1.0872 0.0088932
+         us            Satterthwaite baseline out   -3.308 1.1311 0.0039702
+       ar1h            Satterthwaite baseline out   -3.245 1.0945 0.0034687
+        ar1            Satterthwaite baseline out   -3.242 0.9965 0.0012442
+         cs            Satterthwaite baseline out   -3.351 0.9810 0.0007126
+        csh            Satterthwaite baseline out   -3.404 1.1070 0.0024822
+       toep            Satterthwaite baseline out   -3.264 0.9886 0.0010608
+      toeph            Satterthwaite baseline out   -3.305 1.0909 0.0028437
+         us   Kenward-Roger (linear) baseline out   -3.308 1.1332 0.0040362
+       ar1h   Kenward-Roger (linear) baseline out   -3.245 1.0951 0.0034877
+        ar1   Kenward-Roger (linear) baseline out   -3.242 0.9968 0.0012482
+         cs   Kenward-Roger (linear) baseline out   -3.351 0.9812 0.0007139
+        csh   Kenward-Roger (linear) baseline out   -3.404 1.1077 0.0024972
+       toep   Kenward-Roger (linear) baseline out   -3.264 0.9902 0.0010809
+      toeph   Kenward-Roger (linear) baseline out   -3.305 1.0928 0.0028916
+         us Sandwich, between-within baseline out   -3.308 1.1273 0.0035146
+       ar1h Sandwich, between-within baseline out   -3.245 1.1305 0.0042981
+        ar1 Sandwich, between-within baseline out   -3.242 1.1332 0.0044261
+         cs Sandwich, between-within baseline out   -3.351 1.1214 0.0029684
+        csh Sandwich, between-within baseline out   -3.404 1.1190 0.0024961
+       toep Sandwich, between-within baseline out   -3.264 1.1279 0.0039975
+      toeph Sandwich, between-within baseline out   -3.305 1.1220 0.0033951
+ shift_se inside_ci crossed
+  0.00000      TRUE   FALSE
+  0.10230      TRUE   FALSE
+  0.13473      TRUE   FALSE
+  0.01670      TRUE   FALSE
+ -0.09640      TRUE   FALSE
+  0.10313      TRUE   FALSE
+  0.01347      TRUE   FALSE
+  0.00000      TRUE   FALSE
+  0.10230      TRUE   FALSE
+  0.13473      TRUE   FALSE
+  0.01670      TRUE   FALSE
+ -0.09640      TRUE   FALSE
+  0.10313      TRUE   FALSE
+  0.01347      TRUE   FALSE
+  0.00000      TRUE   FALSE
+  0.10230      TRUE   FALSE
+  0.13473      TRUE   FALSE
+  0.01670      TRUE   FALSE
+ -0.09640      TRUE   FALSE
+  0.10313      TRUE   FALSE
+  0.01347      TRUE   FALSE
+ -0.39574      TRUE   FALSE
+ -0.33848      TRUE   FALSE
+ -0.33586      TRUE   FALSE
+ -0.43404      TRUE   FALSE
+ -0.48201      TRUE   FALSE
+ -0.35560      TRUE   FALSE
+ -0.39296      TRUE   FALSE
+ -0.39574      TRUE   FALSE
+ -0.33848      TRUE   FALSE
+ -0.33586      TRUE   FALSE
+ -0.43404      TRUE   FALSE
+ -0.48201      TRUE   FALSE
+ -0.35560      TRUE   FALSE
+ -0.39296      TRUE   FALSE
+ -0.39574      TRUE   FALSE
+ -0.33848      TRUE   FALSE
+ -0.33586      TRUE   FALSE
+ -0.43404      TRUE   FALSE
+ -0.48201      TRUE   FALSE
+ -0.35560      TRUE   FALSE
+ -0.39296      TRUE   FALSE
+                 [,1]          
+specifications   "42"          
+converged        "42"          
+alternatives     "41"          
+crossed_alpha    "0"           
+outside_interval "0"           
+reversed         "0"           
+significant      "42"          
+estimate_min     "-3.403625"   
+estimate_max     "-2.723463"   
+pct_of_base_min  "94.82652"    
+pct_of_base_max  "118.5086"    
+max_shift_se     "0.4820055"   
+p_min            "0.0007126442"
+p_max            "0.01343209"  
+base_estimate    "-2.872048"   
+base_se          "1.102845"    
+base_lcl         "-5.050871"   
+base_ucl         "-0.6932249"  
+base_p           "0.01011878"  
+elapsed_min      "0.04276555"  
+ballast          "0.7.3"       
+commit           "28be8fb10383"
+Base: estimate -2.87, 95% CI -5.05 to -0.693, p = 0.0101 (alpha 0.05)
+Counted: 41 alternative analyses, 0 deletions; 41 significant, 0 crossed alpha
+Outside base CI: 0; direction reversed: 0; largest shift: 0.482 base SE
+Verdict (interval rule): ROBUST over all counted rows; ROBUST over the 41 sensitivity analyses (same estimand; 0 supplementary rows)
+==== job6_spec_grid done: elapsed 0.0 min ====

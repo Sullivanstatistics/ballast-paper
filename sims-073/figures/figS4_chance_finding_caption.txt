@@ -1,0 +1,1 @@
+Chance finding (no effect, filed p near 0.03): 22 alternative analyses drawn, 100 deletions drawn, 0 counted rows without an estimate, 1 diagnostic refits drawn hollow and not counted

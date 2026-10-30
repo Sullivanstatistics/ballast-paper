@@ -1,0 +1,3 @@
+No effect (planned power 0): 22 alternative analyses drawn, 100 deletions drawn, 0 counted rows without an estimate, 1 diagnostic refits drawn hollow and not counted
+Mild effect (planned power 0.5): 22 alternative analyses drawn, 100 deletions drawn, 0 counted rows without an estimate, 1 diagnostic refits drawn hollow and not counted
+Strong effect (planned power 0.95): 22 alternative analyses drawn, 100 deletions drawn, 0 counted rows without an estimate, 1 diagnostic refits drawn hollow and not counted

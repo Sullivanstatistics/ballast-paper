@@ -1,0 +1,14 @@
+==== job2_reclass: ballast 0.7.2 (commit e883efff2773), R version 4.5.3 (2026-03-11 ucrt), x86_64-w64-mingw32 Windows, 8 workers, 2026-10-28 08:54:16 ====
+
+Study 2: 91 of 750 trials change label
+    from     to significant Freq
+ fragile robust       FALSE   91
+significant trials that change label: 0
+
+Study 3 (all families): 140 of 1200 trials change label
+    from     to significant Freq
+ fragile robust       FALSE  140
+significant trials that change label: 0
+
+Expectation: changes confined to non-significant trials whose estimate reversed inside the interval; no significant trial changes.
+==== job2_reclass done: elapsed 0.0 min ====

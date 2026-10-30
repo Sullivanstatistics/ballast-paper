@@ -1,0 +1,1 @@
+GitHub Actions run 40696990462 on dev-0.7.1 at e94d6ae8349f: windows-latest (release) success; macos-latest (release) success; ubuntu-latest (release) success; ubuntu-latest (devel) success. Completed 28 Oct 2026. URL https://github.com/Sullivanstatistics/ballast/actions/runs/40696990462
