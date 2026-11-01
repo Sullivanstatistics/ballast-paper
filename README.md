@@ -2,7 +2,7 @@
 
 This repository holds every script, seed, per-trial row, summary, figure and log behind the numbers and figures in "Stress-testing a pre-specified mixed model for repeated measures: the ballast package" by Adam J. Sullivan and Nathan Hogan, submitted to Statistics in Biopharmaceutical Research in November 2026. Every number the paper quotes from a run under the 0.7.x interval rule comes from ballast 0.7.3 at commit 28be8fb103839ddc214962d0c54800d2c8b610b0, except Study 1 and the reclassification of Studies 2 and 3, which come from ballast 0.7.2 at commit e883efff2773 (the two versions compute the same estimates, p-values, intervals and verdicts; 0.7.3 changes how the complete-case refit is counted and how the swarm legend is drawn). The design grid of Table 4 and the original 50-trial runs of Studies 2 and 3 come from ballast 0.6.0. The package is at https://github.com/Sullivanstatistics/ballast and is archived on Zenodo under the concept DOI 10.5281/zenodo.23427833. ballast 0.7.4 has been on CRAN since 31 October 2026 (https://CRAN.R-project.org/package=ballast, doi:10.32614/CRAN.package.ballast). It differs from 0.7.3 at 28be8fb only in documentation and figure formatting, so it gives the same numbers. A reader who wants the exact build the runs used installs that commit from GitHub, as below; a reader who wants the package installs it from CRAN with `install.packages("ballast")`. No data from the trial that prompted the work are in this repository: every data set here is simulated or comes from the public rbmi and JM packages.
 
-The Zenodo DOI of this repository is [to be added when the v1.0-submission release is archived].
+This repository is archived on Zenodo under the concept DOI 10.5281/zenodo.23872111 (https://doi.org/10.5281/zenodo.23872111), which always resolves to the latest version. The submission version, release v1.0-submission, has the version DOI 10.5281/zenodo.23872112.
 
 ## Layout
 
@@ -109,9 +109,11 @@ The paper describes the code. The package text was corrected in ballast 0.7.4, w
 
 ## License and citation
 
-The scripts and files here are released under the MIT license (LICENSE). Until the paper is published, cite the package, and this repository by its Zenodo DOI once it is minted:
+The scripts and files here are released under the MIT license (LICENSE). Until the paper is published, cite the package and this repository:
 
 Sullivan AJ (2026). ballast: Stress-Test a Pre-Specified Mixed Model for Repeated Measures. R package version 0.7.3. https://doi.org/10.5281/zenodo.23427833. https://github.com/Sullivanstatistics/ballast
+
+Sullivan AJ (2026). ballast-paper: scripts, seeds, per-trial results and logs for the ballast methods paper. Version v1.0-submission. https://doi.org/10.5281/zenodo.23872111. https://github.com/Sullivanstatistics/ballast-paper
 
 When the paper is published its reference will be added here and to CITATION.cff.
 
