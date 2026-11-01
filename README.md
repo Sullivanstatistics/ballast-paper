@@ -1,6 +1,6 @@
 # ballast-paper
 
-This repository holds every script, seed, per-trial row, summary, figure and log behind the numbers and figures in "Stress-testing a pre-specified mixed model for repeated measures: the ballast package" by Adam J. Sullivan and Nathan Hogan, submitted to Statistics in Biopharmaceutical Research in November 2026. Every number the paper quotes from a run under the 0.7.x interval rule comes from ballast 0.7.3 at commit 28be8fb103839ddc214962d0c54800d2c8b610b0, except Study 1 and the reclassification of Studies 2 and 3, which come from ballast 0.7.2 at commit e883efff2773 (the two versions compute the same estimates, p-values, intervals and verdicts; 0.7.3 changes how the complete-case refit is counted and how the swarm legend is drawn). The design grid of Table 4 and the original 50-trial runs of Studies 2 and 3 come from ballast 0.6.0. The package is at https://github.com/Sullivanstatistics/ballast and is archived on Zenodo under the concept DOI 10.5281/zenodo.23427833. No data from the trial that prompted the work are in this repository: every data set here is simulated or comes from the public rbmi and JM packages.
+This repository holds every script, seed, per-trial row, summary, figure and log behind the numbers and figures in "Stress-testing a pre-specified mixed model for repeated measures: the ballast package" by Adam J. Sullivan and Nathan Hogan, submitted to Statistics in Biopharmaceutical Research in November 2026. Every number the paper quotes from a run under the 0.7.x interval rule comes from ballast 0.7.3 at commit 28be8fb103839ddc214962d0c54800d2c8b610b0, except Study 1 and the reclassification of Studies 2 and 3, which come from ballast 0.7.2 at commit e883efff2773 (the two versions compute the same estimates, p-values, intervals and verdicts; 0.7.3 changes how the complete-case refit is counted and how the swarm legend is drawn). The design grid of Table 4 and the original 50-trial runs of Studies 2 and 3 come from ballast 0.6.0. The package is at https://github.com/Sullivanstatistics/ballast and is archived on Zenodo under the concept DOI 10.5281/zenodo.23427833. ballast 0.7.4 has been on CRAN since 31 October 2026 (https://CRAN.R-project.org/package=ballast, doi:10.32614/CRAN.package.ballast). It differs from 0.7.3 at 28be8fb only in documentation and figure formatting, so it gives the same numbers. A reader who wants the exact build the runs used installs that commit from GitHub, as below; a reader who wants the package installs it from CRAN with `install.packages("ballast")`. No data from the trial that prompted the work are in this repository: every data set here is simulated or comes from the public rbmi and JM packages.
 
 The Zenodo DOI of this repository is [to be added when the v1.0-submission release is archived].
 
@@ -76,7 +76,7 @@ The figure scripts and files keep their working names, which number the figures 
 | Figure S5 | sims-073/figures/figS5_defect_trials.R, .pdf, .png (trials: sims-073/results/defect_figure_trials.*) |
 | Figure S6 | sims-073/figures/figS6_defect_pstrips.R, .pdf, .png |
 
-Each figure has its log in logs/ and, where one was written, its caption in figures/*_caption.txt.
+Each figure has its log in logs/ and, where one was written, its caption in figures/*_caption.txt. Figure S4 was redrawn on 1 November 2026 with the facet label removed from inside the panel (one theme line in figS4_chance_finding.R); the data and every other element are unchanged, and its log is from the 29 October run.
 
 ## Seeds
 
@@ -105,7 +105,7 @@ These two passages are copied from sims-073/README.md.
 
 *A package point for the paper.* stress_verdict() calls a result fragile when any counted row, deletions included, lies outside the filed interval; that is what makes the A trials fragile. The plain-language rule that stress_sap(), the plan text and the SAP template print (rule_text() in R/census.R) says "any counted alternative". The text and the code disagree. The paper should describe the code, and the package text should be fixed in a later version.
 
-The paper describes the code. The package text is to be corrected in ballast 0.7.4.
+The paper describes the code. The package text was corrected in ballast 0.7.4, which now reads "any counted refit (an alternative analysis or a deletion)".
 
 ## License and citation
 

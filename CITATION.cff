@@ -9,7 +9,7 @@ authors:
 license: MIT
 repository-code: "https://github.com/Sullivanstatistics/ballast-paper"
 version: "1.0-submission"
-date-released: "2026-10-29"
+date-released: "2026-11-01"
 keywords:
   - mixed model for repeated measures
   - sensitivity analysis
@@ -27,6 +27,7 @@ references:
     doi: "10.5281/zenodo.23427833"
     repository-code: "https://github.com/Sullivanstatistics/ballast"
     license: MIT
+    notes: "Every number was produced with ballast 0.7.3 at commit 28be8fb. ballast 0.7.4, on CRAN since 31 October 2026 (doi:10.32614/CRAN.package.ballast), differs from it only in documentation and figure formatting. Install the commit from GitHub for the exact build, or the package from CRAN."
   - type: article
     title: "Stress-testing a pre-specified mixed model for repeated measures: the ballast package"
     authors:

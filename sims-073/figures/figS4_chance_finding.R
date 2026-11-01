@@ -8,6 +8,7 @@ t0 <- log_header("figS4_chance_finding")
 res <- readRDS(file.path(RESULTS, "chance_finding", "chance_finding_results.rds"))
 cl <- list(res); names(cl) <- "Chance finding (no effect, filed p near 0.03)"
 g1 <- plot_swarm(cl, xlab = "Treatment difference at visit 4 (filed estimate and 95% interval as the axis)")
+g1 <- g1 + theme(strip.text = element_blank(), strip.background = element_blank())   # the facet label was a title inside the panel (1 Nov 2026); the caption names the trial
 g2 <- plot_pstrip(list(`One participant removed` = res), label_family = FALSE)
 g2$coordinates$clip <- "off"   # plot_pstrip() places the alpha label at the panel edge, where it is clipped in a short panel
 # wrap_elements() keeps patchwork from aligning the two plotting areas (the p-strip's row label would push the swarm right);
